@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12A3A36149949AE005CBD61 /* server.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B12A3A35149949AE005CBD61 /* server.framework */; };
 		B137ADD7143F6EBF007184CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD6143F6EBF007184CB /* UIKit.framework */; };
 		B137ADD9143F6EBF007184CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADD8143F6EBF007184CB /* Foundation.framework */; };
 		B137ADDB143F6EBF007184CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137ADDA143F6EBF007184CB /* CoreGraphics.framework */; };
@@ -35,12 +36,7 @@
 		B137AE19143F732E007184CB /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF4143F6EBF007184CB /* second@2x.png */; };
 		B137AE1A143F732E007184CB /* LPFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF6143F6EBF007184CB /* LPFirstViewController.xib */; };
 		B137AE1B143F732E007184CB /* LPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B137ADF9143F6EBF007184CB /* LPSecondViewController.xib */; };
-		B137AE28143F766F007184CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE22143F766F007184CB /* CoreMedia.framework */; };
-		B137AE29143F766F007184CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE23143F766F007184CB /* AVFoundation.framework */; };
 		B137AE2A143F766F007184CB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE24143F766F007184CB /* CFNetwork.framework */; };
-		B137AE2C143F766F007184CB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE26143F766F007184CB /* AssetsLibrary.framework */; };
-		B137AE2D143F766F007184CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE27143F766F007184CB /* QuartzCore.framework */; };
-		B138C092144FE9AF007F4986 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B137AE25143F766F007184CB /* CoreVideo.framework */; };
 		B1497422144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */; };
 		B1497423144B4C8900E6EE79 /* LPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */; };
 		B1497426144B4CBE00E6EE79 /* LPThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */; };
@@ -51,10 +47,10 @@
 		B19151D414549ED100A70274 /* LPFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19151D114549ED100A70274 /* LPFourthViewController.m */; };
 		B19151D514549ED100A70274 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19151D214549ED100A70274 /* LPFourthViewController.xib */; };
 		B19151D614549ED100A70274 /* LPFourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B19151D214549ED100A70274 /* LPFourthViewController.xib */; };
-		B19160DD148787F400F69EFC /* server.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B19160DC148787F400F69EFC /* server.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B12A3A35149949AE005CBD61 /* server.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = server.framework; path = ../LessPainful_ios/lib/server.framework; sourceTree = "<group>"; };
 		B137ADD2143F6EBF007184CB /* LPSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B137ADD6143F6EBF007184CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B137ADD8143F6EBF007184CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,12 +72,7 @@
 		B137AE01143F7109007184CB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		B137AE1F143F732E007184CB /* LPSimpleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPSimpleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B137AE21143F732E007184CB /* LPSimpleExample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LPSimpleExample copy-Info.plist"; path = "/Users/krukow/Projects/iLessPainful/examples/LPSimpleExample/LPSimpleExample copy-Info.plist"; sourceTree = "<absolute>"; };
-		B137AE22143F766F007184CB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		B137AE23143F766F007184CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B137AE24143F766F007184CB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		B137AE25143F766F007184CB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		B137AE26143F766F007184CB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		B137AE27143F766F007184CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B1497421144B4C8900E6EE79 /* LPThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPThirdViewController.xib; sourceTree = "<group>"; };
 		B1497424144B4CBE00E6EE79 /* LPThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPThirdViewController.h; sourceTree = "<group>"; };
 		B1497425144B4CBE00E6EE79 /* LPThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPThirdViewController.m; sourceTree = "<group>"; };
@@ -90,7 +81,6 @@
 		B19151D014549ED100A70274 /* LPFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPFourthViewController.h; sourceTree = "<group>"; };
 		B19151D114549ED100A70274 /* LPFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPFourthViewController.m; sourceTree = "<group>"; };
 		B19151D214549ED100A70274 /* LPFourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LPFourthViewController.xib; sourceTree = "<group>"; };
-		B19160DC148787F400F69EFC /* server.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = server.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,17 +99,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B138C092144FE9AF007F4986 /* CoreVideo.framework in Frameworks */,
 				B137AE10143F732E007184CB /* MapKit.framework in Frameworks */,
 				B137AE11143F732E007184CB /* UIKit.framework in Frameworks */,
 				B137AE12143F732E007184CB /* Foundation.framework in Frameworks */,
 				B137AE13143F732E007184CB /* CoreGraphics.framework in Frameworks */,
-				B137AE28143F766F007184CB /* CoreMedia.framework in Frameworks */,
-				B137AE29143F766F007184CB /* AVFoundation.framework in Frameworks */,
 				B137AE2A143F766F007184CB /* CFNetwork.framework in Frameworks */,
-				B137AE2C143F766F007184CB /* AssetsLibrary.framework in Frameworks */,
-				B137AE2D143F766F007184CB /* QuartzCore.framework in Frameworks */,
-				B19160DD148787F400F69EFC /* server.framework in Frameworks */,
+				B12A3A36149949AE005CBD61 /* server.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +114,6 @@
 		B137ADC7143F6EBF007184CB = {
 			isa = PBXGroup;
 			children = (
-				B137AE01143F7109007184CB /* MapKit.framework */,
 				B137ADDC143F6EBF007184CB /* LPSimpleExample */,
 				B137ADD5143F6EBF007184CB /* Frameworks */,
 				B137ADD3143F6EBF007184CB /* Products */,
@@ -149,13 +133,9 @@
 		B137ADD5143F6EBF007184CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B19160DC148787F400F69EFC /* server.framework */,
-				B137AE22143F766F007184CB /* CoreMedia.framework */,
-				B137AE23143F766F007184CB /* AVFoundation.framework */,
+				B12A3A35149949AE005CBD61 /* server.framework */,
+				B137AE01143F7109007184CB /* MapKit.framework */,
 				B137AE24143F766F007184CB /* CFNetwork.framework */,
-				B137AE25143F766F007184CB /* CoreVideo.framework */,
-				B137AE26143F766F007184CB /* AssetsLibrary.framework */,
-				B137AE27143F766F007184CB /* QuartzCore.framework */,
 				B137ADD6143F6EBF007184CB /* UIKit.framework */,
 				B137ADD8143F6EBF007184CB /* Foundation.framework */,
 				B137ADDA143F6EBF007184CB /* CoreGraphics.framework */,
@@ -436,9 +416,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/LPSimpleExample/LessPainful\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Downloads\"",
+					"\"$(SRCROOT)/../LessPainful_ios/lib\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
@@ -458,9 +436,7 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/LPSimpleExample/LessPainful\"",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../../../Downloads\"",
+					"\"$(SRCROOT)/../LessPainful_ios/lib\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LPSimpleExample/LPSimpleExample-Prefix.pch";
